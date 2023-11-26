@@ -72,7 +72,8 @@ def test_find_suitable_user():
 
 
 def report_func(func_name, *args):
-    formatted_message = f'{func_name.__name__.replace('_', ' ').title()} [{', '.join(list(args))}]'
+    formatted_message = f"{func_name.__name__.replace('_', ' ').title()} [{', '.join(list(args))}]"
+    print(formatted_message)
     return formatted_message
 
 
